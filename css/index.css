@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+} body {
+    padding-top: 10px;
+    background-color: rgb(199, 245, 199);
+}
+
+.carousel-img.home{
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-img.about{
+    height: 400px;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: rgb(199, 245, 199);
+}
+
+.card {
+    transition: transform 0.25s ease, box-shadow 0.25 ease;
+} .card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+} 
+.card-link {
+    text-decoration: none;
+} .card-link:hover {
+    color: #198754;
+    transform: scale(1.05);
+}
+.card-img-top {
+    object-fit: cover;
+}
+.card-body {
+    background-color: rgb(255, 239, 239);
+}
